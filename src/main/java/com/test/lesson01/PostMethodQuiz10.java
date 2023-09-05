@@ -30,6 +30,7 @@ public class PostMethodQuiz10 extends HttpServlet{
 		 
 		 response.setContentType("text/html");
 		 response.setCharacterEncoding("utf-8");
+		  
 		 
 		 String id = request.getParameter("id");
 		 String password = request.getParameter("password");
